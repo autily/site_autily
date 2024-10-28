@@ -110,7 +110,7 @@ body {
 .btn-primary,
 .btn-secondary:is(:hover, :focus) { background-color: #65B7F6; }
 .btn-primary:is(:hover, :focus),
-.btn-secondary { background-color: var(--russian-violet); }
+.btn-secondary { background-color: hsl(230.77deg 43.33% 23.53%) }
 
 .btn-outline {
   color: #65B7F6;

@@ -50,7 +50,7 @@
           </li>
 
           <li>
-            <a href="#ia" class="navbar-link" data-nav-link>IA</a>
+            <a href="#bot" class="navbar-link" data-nav-link>BOT</a>
           </li>
 
           <li>
@@ -64,6 +64,7 @@
           <li>
             <a href="#baixar" class="btn btn-primary">Baixar</a>
           </li>
+          
         </ul>
       </nav>
       <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
@@ -205,7 +206,7 @@
         - #ABOUT
       -->
 
-      <section class="section about" id="ia" aria-label="about">
+      <section class="section about" id="bot" aria-label="about">
         <div class="container">
 
           <figure class="about-banner">
@@ -225,23 +226,7 @@
 
             <ul class="about-list">
 
-              <li class="about-item">
-
-                <div class="item-icon">
-                  <ion-icon name="call" aria-hidden="true"></ion-icon>
-                </div>
-
-                <div>
-                  <h3 class="h3 item-title">Design</h3>
-
-                  <p class="item-text">
-                    Lorem ipsum dolor sit amet, consec tetur adipiscing elit Lorem ipsum dolor sit amet, consec tetur
-                    adipiscing elit.
-                  </p>
-                </div>
-
-              </li>
-
+            
               <li class="about-item">
 
                 <div class="item-icon">
@@ -252,9 +237,7 @@
                   <h3 class="h3 item-title">Data</h3>
 
                   <p class="item-text">
-                    
-A Mia é uma assistente virtual que melhora a comunicação na comunidade do Autily, oferecendo suporte acessível aos pais de crianças autistas. Ela fornece informações relevantes sobre o uso do aplicativo, ajudando os usuários a compartilhar dúvidas e experiências
-                  </p>
+                    A Mia é uma assistente virtual que melhora a comunicação na comunidade do Autily, oferecendo suporte acessível aos pais de crianças autistas. Ela fornece informações relevantes sobre o uso do aplicativo, ajudando os usuários a compartilhar dúvidas e experiências.                  </p>
                 </div>
 
               </li>
@@ -454,6 +437,42 @@ A Mia é uma assistente virtual que melhora a comunicação na comunidade do Aut
               </div>
             </li>
 
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 768; --height: 558;">
+                  <img src="./assets/images/autismofrases-quebra-cabeca.png" width="768" height="558" loading="lazy"
+                    alt="Brush Strokes Energize Trees In Paintings" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-05-22">2024</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="chatbox-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Artigo</p>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">App Autily: Pais e o Impacto no Apoio a Crianças Autistas</a>
+                  </h3>
+
+                  <a href="#" class="btn btn-outline">Veja Mais</a>
+
+                </div>
+
+              </div>
+            </li>
         
 
           </ul>
@@ -480,13 +499,14 @@ A Mia é uma assistente virtual que melhora a comunicação na comunidade do Aut
                 <a href="https://www.instagram.com/_autily/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://x.com/autily_app"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="https://www.youtube.com/channel/UCa888XOgesd_Mj7wNybgTVg"><i class="fa-brands fa-youtube"></i></a>
+                <a href="mailto:autilyy@gmail.com"><i class="fa-solid fa-envelope"></i></a>
             </div>
             <div class="footerNav">
                 <ul>
                     <li><a href="#home">Inicio</a></li>
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#ia">IA</a></li>
-                    <li><a href="#app">APP</a></li>
+                    <li><a href="#bot">BOT</a></li>
+                    <li><a href="#app">App</a></li>
                     <li><a href="#baixar">Baixar</a></li>
                 </ul>
             </div>
@@ -515,6 +535,18 @@ A Mia é uma assistente virtual que melhora a comunicação na comunidade do Aut
     js link
   -->
   <script src="./assets/js/script.js" defer></script>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  
 
   <!-- 
     - ionicon link
