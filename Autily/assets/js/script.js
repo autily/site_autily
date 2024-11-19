@@ -52,3 +52,11 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
+function showModal(modalId) {
+  document.getElementById(modalId).style.display = 'block';
+}
+
+function hideModal(modalId) {
+  document.getElementById(modalId).style.display = 'none';
+}
