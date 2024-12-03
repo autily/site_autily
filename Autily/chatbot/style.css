@@ -41,9 +41,9 @@ body {
 
 /* Centralizando e redimensionando a imagem */
 .float-image {
-    width: 125px; /* Ajuste o tamanho da imagem */
+    width: 85px; /* Ajuste o tamanho da imagem */
     height: auto;
-    padding-left: 5px;
+    padding-left: 0px;
 }
 
 /* Janela do Chat */
